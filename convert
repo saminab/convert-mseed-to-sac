@@ -1,0 +1,5 @@
+#!/bin/bash
+for data in `ls D*`; do
+      jackseis $data --output-dir="./" --output-format="sac"
+                
+done
